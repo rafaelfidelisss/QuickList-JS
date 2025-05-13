@@ -20,13 +20,14 @@
         <h1>Compras da semana</h1>
       </header>
 
-      <div class="input-wrapper">
-        <input type="text" id="new-item" name="new-item" placeholder="Adicione um novo item">
-        <button>Adicionar item</button>
-      </div>
+      <form class="input-wrapper">
+        <input required type="text" id="new-item" name="new-item" placeholder="Adicione um novo item">
+        <button id="add-btn">Adicionar item</button>
+      </form>
 
       <ul class="list">
-        <li class="-list-item">
+        <!-- Exemplo de elemento da lista
+        <li class="list-item">
           <div class="checkbox-wrapper">
             <div class="checkbox-image"></div>
             <input type="checkbox">
@@ -35,10 +36,11 @@
           <p>Pão de forma</p>
           <img class="delete" src="assets/icons/delete.svg" alt="excluir">
         </li>
+        -->
       </ul>
     </section>
 
-    <div class="removed-alert">
+    <div class="removed-alert hide">
         <img  class="warning" src="assets/icons/warning.svg" alt="">
         <p>O item foi removido da lista</p>
         <img class="close" src="assets/icons/close.svg" alt="">

@@ -196,6 +196,10 @@ li {
   }
 }
 
+.hide {
+  display: none;
+}
+
 @media (min-width: 40em) {
   .logo {
     display: block;
