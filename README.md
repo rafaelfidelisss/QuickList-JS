@@ -26,7 +26,7 @@ Projeto desenvolvido para praticar manipulação de elementos com JavaScript.
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
 
-## ⚙️ Funcionalidade
+## ⚙️ Funcionalidades
 
 - Adicionar elemento na lista
 - Marcar elemento na lista
